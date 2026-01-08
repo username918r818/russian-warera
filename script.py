@@ -49,7 +49,9 @@ def _generate_js_content(ru_json_path: str) -> str:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate or verify russian.js from ru.json")
+    parser = argparse.ArgumentParser(
+        description="Generate or verify russian.js from ru.json"
+    )
     parser.add_argument(
         "--check",
         action="store_true",
