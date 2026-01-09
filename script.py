@@ -16,7 +16,7 @@ def _generate_js_content(ru_json_path: str) -> str:
     js_content = f"""// ==UserScript==
 // @name         russian warera
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  makes warera russian
 // @match        https://app.warera.io/*
 // @grant        none
