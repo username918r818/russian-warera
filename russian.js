@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         russian warera
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  makes warera russian
 // @match        https://app.warera.io/*
 // @grant        none
